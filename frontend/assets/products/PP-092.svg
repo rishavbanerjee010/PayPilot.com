@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Philips BT3223">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="46" cy="60" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="342" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="60" r="26" fill="#ffffff" opacity="0.14"/>
+  
+    <rect x="186" y="148" width="28" height="112" rx="13" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="172" y="108" width="56" height="40" rx="8" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="184" y1="120" x2="184" y2="136" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="200" y1="120" x2="200" y2="136" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="216" y1="120" x2="216" y2="136" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="336" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="23" font-weight="600" fill="#ffffff">Philips BT3223</text>
+</svg>

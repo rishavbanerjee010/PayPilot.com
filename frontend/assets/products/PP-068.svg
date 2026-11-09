@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Nike Court Vision Low">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="46" cy="60" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="342" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="60" r="26" fill="#ffffff" opacity="0.14"/>
+  
+    <path d="M116 232 q8 -42 60 -50 q32 -6 48 -30 q42 20 56 46 q8 16 0 34 z" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="116" y1="242" x2="284" y2="242" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 200 l16 -14" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="336" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="23" font-weight="600" fill="#ffffff">Nike Court Vision Low</text>
+</svg>

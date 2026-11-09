@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="JBL Bar 300 Soundbar">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5f3fc"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="46" cy="60" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="342" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="60" r="26" fill="#ffffff" opacity="0.14"/>
+  
+    <rect x="153" y="88" width="94" height="204" rx="26" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="153" y1="136" x2="247" y2="136" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="200" cy="222" r="28" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="200" cy="222" r="9" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="336" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="23" font-weight="600" fill="#ffffff">JBL Bar 300 Soundbar</text>
+</svg>

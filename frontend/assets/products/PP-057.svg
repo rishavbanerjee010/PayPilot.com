@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Anker 555 USB-C Hub">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="46" cy="60" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="342" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="60" r="26" fill="#ffffff" opacity="0.14"/>
+  
+    <rect x="136" y="158" width="128" height="58" rx="10" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="158" y1="176" x2="158" y2="198" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="182" y1="176" x2="182" y2="198" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="206" y1="176" x2="206" y2="198" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="230" y1="176" x2="230" y2="198" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="200" y1="216" x2="200" y2="244" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="336" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="23" font-weight="600" fill="#ffffff">Anker 555 USB-C Hub</text>
+</svg>

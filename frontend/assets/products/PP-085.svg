@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Bajaj 15L Geyser">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f87171"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="46" cy="60" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="342" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="366" cy="60" r="26" fill="#ffffff" opacity="0.14"/>
+  
+    <rect x="160" y="100" width="80" height="140" rx="34" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="200" y1="240" x2="200" y2="258" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="180" y1="258" x2="220" y2="258" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M172 148 q10 14 0 28" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="336" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="23" font-weight="600" fill="#ffffff">Bajaj 15L Geyser</text>
+</svg>

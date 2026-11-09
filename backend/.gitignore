@@ -1,0 +1,15 @@
+# Never commit secrets or local state
+.env
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+node_modules/

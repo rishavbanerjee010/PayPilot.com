@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PayPilot — Your AI-powered shopping companion</title>
+  <meta name="description" content="PayPilot is an AI-powered shopping assistant: discover products, compare options and check out securely with PayPal Sandbox. Prices in ₹ (INR)." />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#/home" class="brand" aria-label="PayPilot home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="30" height="30"><defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#lg1)"/><path d="M9 31.5 L54 9 L40.5 55 L29.5 41.5 L9 31.5 Z" fill="#ffffff"/><path d="M54 9 L29.5 41.5" stroke="#c7d2fe" stroke-width="2.4" stroke-linejoin="round"/><path d="M29.5 41.5 L29.5 54 L36 46.5" fill="#c7d2fe"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">PayPilot</span>
+          <span class="brand-tag">AI shopping companion</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#/home" data-nav="home">Home</a>
+        <a href="#/explore" data-nav="explore">Explore Products</a>
+        <a href="#/assistant" data-nav="assistant">AI Assistant</a>
+        <a href="#/orders" data-nav="orders">Orders</a>
+        <a href="#/cart" class="nav-cart" data-nav="cart" aria-label="Shopping cart">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1.6"/><circle cx="19" cy="21" r="1.6"/><path d="M2.5 3h2l2.6 12.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L22.5 7H6"/></svg>
+          <span>Cart</span>
+          <span class="cart-badge" id="cartBadge" hidden>0</span>
+        </a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= MAIN VIEW ================= -->
+  <main id="view" class="view" aria-live="polite"></main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg viewBox="0 0 64 64" width="26" height="26"><rect width="64" height="64" rx="15" fill="url(#lg1)"/><path d="M9 31.5 L54 9 L40.5 55 L29.5 41.5 L9 31.5 Z" fill="#ffffff"/><path d="M54 9 L29.5 41.5" stroke="#c7d2fe" stroke-width="2.4" stroke-linejoin="round"/></svg>
+          <span>PayPilot</span>
+        </div>
+        <p>Your AI-powered shopping companion. Discover, compare and check out with confidence — every recommendation grounded in a real catalogue, every total verified on the server.</p>
+        <p class="footer-note">Hackathon demo · PayPal <strong>Sandbox</strong> only · Prices in ₹ (INR)</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#/home">Home</a>
+        <a href="#/explore">Explore Products</a>
+        <a href="#/cart">Shopping Cart</a>
+        <a href="#/orders">Orders</a>
+      </div>
+      <div class="footer-col">
+        <h4>AI</h4>
+        <a href="#/assistant">AI Assistant</a>
+        <a href="#/assistant" data-suggest="Find the best laptop under ₹60,000">Laptop recommendations</a>
+        <a href="#/assistant" data-suggest="Compare two smartphones under ₹40,000">Compare smartphones</a>
+        <a href="#/assistant" data-suggest="Find products suitable for students">Student picks</a>
+      </div>
+      <div class="footer-col">
+        <h4>Trust &amp; Safety</h4>
+        <span>Server-verified totals</span>
+        <span>PayPal Sandbox checkout</span>
+        <span>No card data stored</span>
+        <span>Catalogue-grounded AI</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PayPilot — built for a hackathon demo. Not a real store.</span>
+      <span>FastAPI · SQLite · OpenAI Responses API · PayPal Orders v2</span>
+    </div>
+  </footer>
+
+  <!-- ================= OVERLAYS ================= -->
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" id="modalContent" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <div class="compare-tray" id="compareTray" hidden>
+    <div class="compare-tray-items" id="compareTrayItems"></div>
+    <button class="btn btn-primary" id="compareNowBtn">Compare (<span id="compareCount">0</span>)</button>
+    <button class="btn btn-ghost" id="compareClearBtn">Clear</button>
+  </div>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
